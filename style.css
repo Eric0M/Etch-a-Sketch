@@ -1,0 +1,25 @@
+.board{
+    height: 500px;
+    width: 500px;
+    display: grid;
+    border: 3px solid black;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.setSize, .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 4px;
+    gap: 4px;
+}
+
+.mode{
+    margin-bottom: 10px;
+}
